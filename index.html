@@ -295,76 +295,68 @@
             </div>
 
             <div class="card card-body py-5">
-                <form action="https://formspree.io/fhleoinv@gmail.com" method="POST" />
-                <div class="form-group">
-                    <div class="input-group input-group-lg">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text bg-danger text-white">
-                                <i class="fa fa-user"></i>
-                            </span>
+                <form action="https://formspree.io/fhleoinv@gmail.com" method="POST">
+                    <div class="form-group">
+                        <div class="input-group input-group-lg">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text bg-danger text-white">
+                                    <i class="fa fa-user"></i>
+                                </span>
+                            </div>
+                            <input type="text" class="form-control bg-dark text-white" name="name" placeholder="name">
                         </div>
-                        <input type="text" class="form-control bg-dark text-white" name="name" placeholder="name">
                     </div>
-                </div>
 
-                <div class="form-group">
-                    <div class="input-group input-group-lg">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text bg-danger text-white">
-                                <i class="fa fa-envelope"></i>
-                            </span>
+                    <div class="form-group">
+                        <div class="input-group input-group-lg">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text bg-danger text-white">
+                                    <i class="fa fa-envelope"></i>
+                                </span>
+                            </div>
+                            <input type="email" class="form-control bg-dark text-white" name="email"
+                                placeholder="Email">
                         </div>
-                        <input type="email" class="form-control bg-dark text-white" name="email" placeholder="Email">
                     </div>
-                </div>
 
-                <div class="form-group">
-                    <div class="input-group input-group-lg">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text bg-danger text-white">
-                                <i class="fa fa-pencil"></i>
-                            </span>
+                    <div class="form-group">
+                        <div class="input-group input-group-lg">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text bg-danger text-white">
+                                    <i class="fa fa-pencil"></i>
+                                </span>
+                            </div>
+                            <textarea type="text" class="form-control bg-dark text-white" name="message"
+                                placeholder="Message"></textarea>
                         </div>
-                        <textarea type="text" class="form-control bg-dark text-white" name="message"
-                            placeholder="Message"></textarea>
                     </div>
-                </div>
 
-                <input type="submit" value="submit" class="btn btn-danger btn-block btn-lg">
+                    <input type="hidden" name="_subject" value="New submission from shontauro.github.io!">
+
+                    <input type="submit" value="submit" class="btn btn-danger btn-block btn-lg">
+
+                    <input type="hidden" name="_next" value="https://shontauro.github.io/thanks.html">
                 </form>
             </div>
         </div>
 
-        <!-- FOOTER -->
-        <footer id="main-footer" class="p-5 bg-dark text-white">
-            <div class="row">
-                <div class="col-md-6">
-                    <a href="#" class="btn btn-outline-light">
-                        <i class="fa fa-cloud">Download Resume</i>
-                    </a>
-                </div>
-            </div>
-        </footer>
 
-    </div>
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-
-    <script>
-        $('.port-item').click(function () {
-            $('.collapse').collapse('hide');
-        });
-    </script>
+        <script>
+            $('.port-item').click(function () {
+                $('.collapse').collapse('hide');
+            });
+        </script>
 </body>
 
 </html>
