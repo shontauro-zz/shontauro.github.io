@@ -20,6 +20,10 @@ body {
     min-width: none;
 }
 
+#speaking ul {
+    list-style-type: none;
+}
+
 .subheading {
     text-transform: uppercase;
     font-weight: 500;
